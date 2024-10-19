@@ -3,7 +3,7 @@
     "recipe_id": "rec001",
     "recipe_name": "Grilled Lemon Herb Chicken",
     "recipe_image": "https://i.ibb.co.com/qpFxprj/grilled.jpg",
-    "short_description": "A zesty, flavorful chicken recipe marinated in lemon and herbs, perfect for grilling. ",
+    "short_description": "A zesty, flavorful chicken recipe marinated in lemon and herbs, perfect for grilling and enojoying. ",
     "ingredients": [
       "500 g chicken breast",
       "1 lemon, juiced",
@@ -61,7 +61,7 @@
   },
   {
     "recipe_id": "rec005",
-    "recipe_name": "Avocado Toast with Poached Egg",
+    "recipe_name": "Avocado Toast with Egg",
     "recipe_image": "https://i.ibb.co.com/f9G8G4R/toasts.jpg",
     "short_description": "A healthy and quick breakfast option featuring creamy avocado and a perfectly poached egg on toast.",
     "ingredients": [

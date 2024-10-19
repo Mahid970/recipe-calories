@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { IoIosTime } from "react-icons/io";
 import { FaFire } from "react-icons/fa";
-const ShowRecipeCard = ({ recipe }) => {
+const ShowRecipeCard = ({ recipe, handleWantToCook }) => {
   const {
     recipe_name,
     recipe_image,
@@ -12,7 +12,7 @@ const ShowRecipeCard = ({ recipe }) => {
   } = recipe;
   return (
     <div>
-      <div className="card bg-base-100 p-6 w-96 shadow-xl gap-4">
+      <div className="card bg-base-100 p-6  shadow-xl gap-4">
         <figure className="">
           <img src={recipe_image} alt="Shoes" className="rounded-xl" />
         </figure>
@@ -40,7 +40,12 @@ const ShowRecipeCard = ({ recipe }) => {
             <p>{calories} calories</p>
           </div>
         </div>
-        <button className="bg-green-500 py-3 px-6 rounded w-full text-black  font-bold">
+        <button
+          onClick={() => {
+            handleWantToCook(recipe);
+          }}
+          className="bg-green-500 py-3 px-6 rounded w-full text-black  font-bold"
+        >
           Want to cook
         </button>
       </div>
@@ -50,6 +55,7 @@ const ShowRecipeCard = ({ recipe }) => {
 
 ShowRecipeCard.propTypes = {
   recipe: PropTypes.object.isRequired,
+  handleWantToCook: PropTypes.func,
 };
 
 export default ShowRecipeCard;
