@@ -1,7 +1,10 @@
 import PropTypes from "prop-types";
 import WantToCookTableRow from "./WantToCookTableRow";
-const WantToCookTable = ({ orderedRecipes, orderedRecipeCount }) => {
-  console.log(orderedRecipes);
+const WantToCookTable = ({
+  orderedRecipes,
+  orderedRecipeCount,
+  handleCooking,
+}) => {
   return (
     <div>
       <h1 className="text-2xl font-bold text-center">
@@ -24,6 +27,7 @@ const WantToCookTable = ({ orderedRecipes, orderedRecipeCount }) => {
                 idx={idx}
                 key={orderedRecipe.recipe_id}
                 orderedRecipe={orderedRecipe}
+                handleCooking={handleCooking}
               ></WantToCookTableRow>
             ))}
           </tbody>
@@ -35,5 +39,6 @@ const WantToCookTable = ({ orderedRecipes, orderedRecipeCount }) => {
 WantToCookTable.propTypes = {
   orderedRecipes: PropTypes.array,
   orderedRecipeCount: PropTypes.number,
+  handleCooking: PropTypes.func,
 };
 export default WantToCookTable;
