@@ -1,0 +1,92 @@
+[
+  {
+    "recipe_id": "rec001",
+    "recipe_name": "Grilled Lemon Herb Chicken",
+    "recipe_image": "https://i.ibb.co.com/qpFxprj/grilled.jpg",
+    "short_description": "A zesty, flavorful chicken recipe marinated in lemon and herbs, perfect for grilling. ",
+    "ingredients": [
+      "500 g chicken breast",
+      "1 lemon, juiced",
+      "2 cloves garlic, minced",
+      "2 tsp dried oregano",
+      "1 tbsp olive oil"
+    ],
+    "preparing_time": 40,
+    "calories": 350
+  },
+  {
+    "recipe_id": "rec002",
+    "recipe_name": "Vegetarian Basil Pesto Pasta",
+    "recipe_image": "https://i.ibb.co.com/3Mpy1fw/plate-pasta.jpg",
+    "short_description": "A light, refreshing pasta dish with homemade basil pesto and fresh vegetables.",
+    "ingredients": [
+      "200 g pasta",
+      "100 g fresh basil leaves",
+      "50 g pine nuts",
+      "2 cloves garlic",
+      "60 ml olive oil"
+    ],
+    "preparing_time": 25,
+    "calories": 420
+  },
+  {
+    "recipe_id": "rec003",
+    "recipe_name": "Spicy Thai Coconut Soup",
+    "recipe_image": "https://i.ibb.co.com/qpFxprj/grilled.jpg",
+    "short_description": "A rich, creamy coconut soup with a perfect balance of spice and sweetness, inspired by Thai cuisine.",
+    "ingredients": [
+      "400 ml coconut milk",
+      "300 g chicken breast, sliced",
+      "150 g mushrooms",
+      "1 tbsp Thai red curry paste",
+      "2 red chilies"
+    ],
+    "preparing_time": 30,
+    "calories": 320
+  },
+  {
+    "recipe_id": "rec004",
+    "recipe_name": "Classic Margherita Pizza",
+    "recipe_image": "https://i.ibb.co.com/HX6Zmhm/pizza.jpg",
+    "short_description": "A traditional Italian pizza topped with fresh mozzarella, tomatoes, and basil, baked to perfection.",
+    "ingredients": [
+      "1 pizza dough",
+      "200 g fresh mozzarella",
+      "100 g tomato sauce",
+      "10 fresh basil leaves",
+      "2 tbsp olive oil"
+    ],
+    "preparing_time": 45,
+    "calories": 500
+  },
+  {
+    "recipe_id": "rec005",
+    "recipe_name": "Avocado Toast with Poached Egg",
+    "recipe_image": "https://i.ibb.co.com/f9G8G4R/toasts.jpg",
+    "short_description": "A healthy and quick breakfast option featuring creamy avocado and a perfectly poached egg on toast.",
+    "ingredients": [
+      "1 ripe avocado",
+      "2 slices whole grain bread",
+      "1 egg",
+      "1 tbsp lemon juice",
+      "Chili flakes for garnish"
+    ],
+    "preparing_time": 15,
+    "calories": 250
+  },
+  {
+    "recipe_id": "rec006",
+    "recipe_name": "Chocolate Lava Cake",
+    "recipe_image": "https://i.ibb.co.com/1dDL3dN/chocolate.jpg",
+    "short_description": "A rich and indulgent chocolate dessert with a gooey molten center, perfect for chocolate lovers.",
+    "ingredients": [
+      "150 g dark chocolate",
+      "100 g butter",
+      "100 g sugar",
+      "3 eggs",
+      "50 g flour"
+    ],
+    "preparing_time": 20,
+    "calories": 600
+  }
+]
