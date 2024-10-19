@@ -2,12 +2,12 @@ import { CgProfile } from "react-icons/cg";
 
 const Navbar = () => {
   return (
-    <div className="my-4 mx-12 ">
+    <div className="my-4 lg:mx-12 ">
       <div className="navbar bg-base-100 ">
         <div className="navbar-start">
           <a className="btn btn-ghost text-3xl">Recipe Calories</a>
         </div>
-        <div className="navbar-center ">
+        <div className="navbar-center hidden md:block ">
           <ul className="flex gap-12 font-semibold text-xl">
             <li>Home</li>
             <li>Recipes</li>
@@ -20,7 +20,7 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Search"
-              className="input bg-gray-100 rounded-full font-bold  w-28 md:w-auto"
+              className="input hidden lg:block bg-gray-100 rounded-full font-bold  w-28 md:w-auto"
             />
           </div>
 

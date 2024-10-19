@@ -1,10 +1,10 @@
 const Hero = () => {
   return (
-    <div className=" mx-24 ">
+    <div className=" lg:mx-24 mx-2 ">
       <div className="hero rounded-2xl bg-[url('/public/banner.jpg')]">
         <div className="hero-overlay rounded-2xl bg-opacity-30"></div>
         <div className="hero-content text-white text-center">
-          <div className="w-2/3 flex flex-col py-20 gap-12">
+          <div className="lg:w-2/3 flex flex-col py-20 gap-12">
             <h1 className=" text-5xl font-bold">
               Discover an exceptional cooking class tailored for you!
             </h1>

@@ -1,6 +1,6 @@
 const RecipesTitle = () => {
   return (
-    <div className="my-16 w-2/3 mx-auto">
+    <div className="my-16 mx-8 lg:w-2/3 lg:mx-auto">
       <h1 className="text-4xl font-bold text-center mb-4">Our Recipes</h1>
       <p className="text-center">
         We offers a collection of creative, delicious recipes, featuring a

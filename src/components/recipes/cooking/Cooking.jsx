@@ -21,8 +21,8 @@ const Cooking = ({
   };
 
   return (
-    <div className=" w-2/5 ">
-      <div className="card bg-base-100 gap-6 p-3 shadow-xl">
+    <div className=" lg:w-2/5 mt-12 lg:mt-0 ">
+      <div className="card bg-base-100 gap-6 lg:p-3 shadow-xl">
         <WantToCookTable
           orderedRecipes={orderedRecipes}
           orderedRecipeCount={orderedRecipeCount}

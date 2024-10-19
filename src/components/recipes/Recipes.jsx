@@ -30,7 +30,7 @@ const Recipes = () => {
   return (
     <div>
       <RecipesTitle></RecipesTitle>
-      <div className="flex mx-12 gap-12 ">
+      <div className="lg:flex lg:mx-12 mx-6 gap-6 ">
         <LoadRecipeData handleWantToCook={handleWantToCook}></LoadRecipeData>
         <ToastContainer autoClose={2000}></ToastContainer>
         <Cooking

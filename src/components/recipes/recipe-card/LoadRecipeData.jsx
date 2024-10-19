@@ -11,7 +11,7 @@ const LoadRecipeData = ({ handleWantToCook }) => {
       .then((data) => setRecipeData(data));
   }, []);
   return (
-    <div className="grid grid-cols-2 gap-8 w-3/5">
+    <div className="grid lg:grid-cols-2  gap-8 lg:w-3/5">
       {recipeData.map((recipe) => (
         <ShowRecipeCard
           key={recipe.recipe_id}
