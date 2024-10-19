@@ -1,5 +1,10 @@
 import PropTypes from "prop-types";
-const WantToCookTableRow = ({ orderedRecipe, idx, handleCooking }) => {
+const WantToCookTableRow = ({
+  orderedRecipe,
+  idx,
+  handleCooking,
+  handleCurrentlyCooking,
+}) => {
   const { recipe_name, preparing_time, calories } = orderedRecipe;
   return (
     <tr>
@@ -11,6 +16,7 @@ const WantToCookTableRow = ({ orderedRecipe, idx, handleCooking }) => {
         <button
           onClick={() => {
             handleCooking(orderedRecipe);
+            handleCurrentlyCooking(orderedRecipe);
           }}
           className="bg-green-500 py-2 px-4 rounded-full text-black  font-bold"
         >
@@ -24,5 +30,6 @@ WantToCookTableRow.propTypes = {
   orderedRecipe: PropTypes.object,
   idx: PropTypes.number,
   handleCooking: PropTypes.func,
+  handleCurrentlyCooking: PropTypes.func,
 };
 export default WantToCookTableRow;

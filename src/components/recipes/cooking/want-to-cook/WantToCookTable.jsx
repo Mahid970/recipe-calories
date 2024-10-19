@@ -4,6 +4,7 @@ const WantToCookTable = ({
   orderedRecipes,
   orderedRecipeCount,
   handleCooking,
+  handleCurrentlyCooking,
 }) => {
   return (
     <div>
@@ -28,6 +29,7 @@ const WantToCookTable = ({
                 key={orderedRecipe.recipe_id}
                 orderedRecipe={orderedRecipe}
                 handleCooking={handleCooking}
+                handleCurrentlyCooking={handleCurrentlyCooking}
               ></WantToCookTableRow>
             ))}
           </tbody>
@@ -40,5 +42,6 @@ WantToCookTable.propTypes = {
   orderedRecipes: PropTypes.array,
   orderedRecipeCount: PropTypes.number,
   handleCooking: PropTypes.func,
+  handleCurrentlyCooking: PropTypes.func,
 };
 export default WantToCookTable;

@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
 import { IoIosTime } from "react-icons/io";
 import { FaFire } from "react-icons/fa";
+
+import "react-toastify/dist/ReactToastify.css";
 const ShowRecipeCard = ({ recipe, handleWantToCook }) => {
   const {
     recipe_name,

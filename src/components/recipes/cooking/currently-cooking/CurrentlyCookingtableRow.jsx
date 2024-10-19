@@ -1,10 +1,5 @@
 import PropTypes from "prop-types";
-const CurrentlyCookingtableRow = ({
-  currentlyCookingRecipe,
-  idx,
-  preparingTimeCount,
-  caloriesCount,
-}) => {
+const CurrentlyCookingtableRow = ({ currentlyCookingRecipe, idx }) => {
   const { recipe_name, preparing_time, calories } = currentlyCookingRecipe;
   return (
     <tr>
@@ -18,7 +13,5 @@ const CurrentlyCookingtableRow = ({
 CurrentlyCookingtableRow.propTypes = {
   currentlyCookingRecipe: PropTypes.object,
   idx: PropTypes.number,
-  preparingTimeCount: PropTypes.number,
-  caloriesCount: PropTypes.number,
 };
 export default CurrentlyCookingtableRow;
